@@ -1,8 +1,8 @@
 const promt = require('promt - sync')({signit:true});
 
-let weight = number(prompt("enter you earth weight: "));
+let weight = Number(prompt("enter you earth weight: "));
 
-let planetnum = number(prompt("enter the number of 
+let planetnum = Number(prompt("enter the number of 
 the planet you will be traveling to. 1-venus, 2-mars, 
 3-jupiter, 4-saturn, 5-uranus, 6-neptune: "));
 
