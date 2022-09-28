@@ -2,7 +2,7 @@ const promt = require('promt - sync')({signit:true});
 
 
 
-let weekday = number(prompt("please enter the number of the weekday:"));
+let weekday = Number(prompt("please enter the number of the weekday:"));
 console.log(weekday);
 
 if (weekday === 1){
