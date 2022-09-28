@@ -1,6 +1,6 @@
 const promt = require('promt - sync')({signit:true});
 
-let num = number(prompt("enter a number:"));
+let num = Number(prompt("enter a number:"));
 
 console.log(num);
 
