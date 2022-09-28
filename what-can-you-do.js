@@ -2,7 +2,7 @@ const promt = require('promt - sync')({signit:true});
 
 
 
-let entergae = number(prompt("please enter your age"));
+let entergae = Number(prompt("please enter your age"));
 console.log(enterage);
 
 if(enterage < 16){
